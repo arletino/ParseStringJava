@@ -1,4 +1,4 @@
-package Laptop.view;
+package view;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -7,7 +7,7 @@ import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeSet;
 
-import Laptop.data.Laptop;
+import data.Laptop;
 
 
 public class View {

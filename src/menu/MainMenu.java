@@ -1,4 +1,4 @@
-package Laptop.menu;
+package menu;
 
 import java.util.Scanner;
 

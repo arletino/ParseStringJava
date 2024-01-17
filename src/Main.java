@@ -1,8 +1,5 @@
-package Laptop;
-
-
-import Laptop.controller.Controller;
-import Laptop.menu.MainMenu;
+import controller.Controller;
+import menu.MainMenu;
 
 public class Main {
     public static void main(String[] args) {

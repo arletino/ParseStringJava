@@ -1,8 +1,6 @@
-package Laptop.data;
+package data;
 
-import java.util.ArrayList;
 import java.util.LinkedHashMap;
-import java.util.List;
 import java.util.Map;
 
 public class Laptop extends Product implements Comparable<Laptop>{
@@ -104,18 +102,6 @@ public class Laptop extends Product implements Comparable<Laptop>{
     public void setCapacityRom(Integer capacityRom) {
         this.capacityRom = capacityRom;
     }
-
-    // public List<String> getListLaptopParam(){
-    //     List<String> params = new ArrayList<>();
-    //     params.add("" + super.getId());
-    //     params.add(super.getManufacturerProduct());
-    //     params.add(super.getNameProduct());
-    //     params.add(typeOS);
-    //     params.add(color);
-    //     params.add(capacityRam.toString());
-    //     params.add(capacityRom.toString());
-    //     return params;
-    // }
 
     public Map<String, String> getMapLaptopParam(){
         Map<String, String> params = new LinkedHashMap<>(); 

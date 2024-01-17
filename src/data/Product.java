@@ -1,4 +1,4 @@
-package Laptop.data;
+package data;
 
 public abstract class Product {
     private int id;

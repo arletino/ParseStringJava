@@ -1,14 +1,12 @@
-package Laptop.controller;
+package controller;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import java.util.Set;
 
-import Laptop.service.FilterLaptops;
-import Laptop.service.IOFile;
-import Laptop.service.ServiceLaptop;
-import Laptop.view.View;
+import service.FilterLaptops;
+import service.IOFile;
+import service.ServiceLaptop;
+import view.View;
 
 public class Controller {
     private IOFile ioFile = new IOFile();
