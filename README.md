@@ -1,18 +1,8 @@
-## Getting Started
+Подумать над структурой класса Ноутбук для магазина техники - выделить поля и методы. Реализовать в java. Создать множество ноутбуков. Написать метод, который будет запрашивать у пользователя критерий (или критерии) фильтрации и выведет ноутбуки, отвечающие фильтру. Критерии фильтрации можно хранить в Map. Например: “Введите цифру, соответствующую необходимому критерию: 1 - ОЗУ 2 - Объем ЖД 3 - Операционная система 4 - Цвет … Далее нужно запросить минимальные значения для указанных критериев - сохранить параметры фильтрации можно также в Map. Отфильтровать ноутбуки из первоначального множества и вывести проходящие по условиям. Работу сдать как обычно ссылкой на гит репозиторий Частые ошибки:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Заставляете пользователя вводить все существующие критерии фильтрации
+Невозможно использовать более одного критерия фильтрации одновременно
+При выборке выводятся ноутбуки, которые удовлетворяют только одному фильтру, а не всем введенным пользователем
+Работа выполнена только для каких то конкретных ноутбуков, и если поменять характеристики ноутбуков или добавить еще ноутбук, то программа начинает работать некорректно
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Примечание: фильтр запрашивает по очереди все поля, можно не указывать и оставлять пустые поля, если фильтр будет пуст поиск выдаст пустой список
