@@ -1,0 +1,6 @@
+0 Acer VivoBook Windows Black 16 128
+1 Huawai VivoBook Windows Black 8 256
+2 Honor VivoBook Windows Black 16 128
+3 Azerty VivoBook Windows Black 16 256
+4 CHUWI VivoBook Windows Black 16 128
+5 Thunderobot VivoBook Windows Black 16 128
